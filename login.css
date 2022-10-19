@@ -1,0 +1,87 @@
+html,body{
+    margin: 0px;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card   {
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 12px;
+    border-color: rgba(0,0,0,0.3);
+    background-color: rgba(0,0,0,0.05);
+    min-width: 30%;
+    min-height: 20%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    box-shadow: 10px 10px 32px 0px rgba(0,0,0,0.75);
+}
+
+h1 {
+    font-family: "Open Sans","Segoe UI","Helvetica",sans-serif;
+    font-weight: 300;
+    margin: 0 0 20px;
+}
+
+/* LOGO CODE */
+h1#the_logo .logo_name span {
+    color: #cc382a;
+    font-weight: 900;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    vertical-align: baseline;
+}
+
+h1#the_logo .logo_name {
+        font-size: 48px;
+        font-weight: 300;
+        line-height: 0.9;
+}
+
+h1#the_logo img {
+    margin-right: 10px;
+    max-width: 250px;
+}
+
+h1#the_logo {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    padding: 0 0 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+form {
+    display: flex;
+    flex-flow:column nowrap;
+    justify-content: space-between;
+}
+
+input {
+    border-style: hidden;
+    border-bottom: 2px solid rgb(178, 175, 175);
+    background-color: transparent;
+    height: 25px;
+}
+
+input {
+    margin-top: 10px;
+}
+
+input[type="button"] {
+    width: 75px;
+    border: 2px solid;
+    background-color: rgb(183, 182, 182);
+    margin-bottom: 10px;
+}
