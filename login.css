@@ -32,6 +32,7 @@ h1 {
 }
 
 /* LOGO CODE */
+
 h1#the_logo .logo_name span {
     color: #cc382a;
     font-weight: 900;
@@ -61,6 +62,8 @@ h1#the_logo {
     align-items: center;
     justify-content: center;
 }
+
+/* Form Code */
 
 form {
     display: flex;
